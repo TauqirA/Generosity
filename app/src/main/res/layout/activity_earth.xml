@@ -1,0 +1,80 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:screenOrientation="portrait"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="4"
+    android:background="@drawable/earthground"    
+    
+    tools:context=".Earth" >
+
+   <Button
+       android:id="@+id/back2"
+       android:layout_width="50dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="0.5"
+       android:background="@android:color/transparent"
+       android:drawableLeft="@drawable/backlogo"
+       android:textSize="10dp" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+		android:layout_weight="0.5"
+        android:layout_marginTop="32dp" 
+        android:drawableLeft="@drawable/dollarlogo" 
+        android:textSize="10dp"
+        />
+
+<Button 
+    android:id="@+id/button2"
+    android:layout_width="match_parent"
+    android:layout_weight="0.5"
+    android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/shoelogo"
+        android:textSize="10dp"
+    />
+
+<Button
+    android:id="@+id/button3"
+    android:layout_width="match_parent"
+    android:layout_weight="0.5"
+    android:layout_height="wrap_content"
+       android:drawableLeft="@drawable/pizzalogo" 
+       android:textSize="10dp"
+ />
+
+<Button
+    android:id="@+id/button4"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+        android:drawableLeft="@drawable/hospitallogo"
+        android:textSize="10dp"
+    />
+
+<Button
+    android:id="@+id/button5"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+    android:drawableLeft="@drawable/banklogo"
+    android:textSize="10dp" 
+    />
+
+<Button
+    android:id="@+id/button6"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+            android:drawableLeft="@drawable/marketlogo"
+            android:textSize="10dp"
+    />
+
+</LinearLayout>

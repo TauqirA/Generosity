@@ -1,0 +1,79 @@
+ <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+     android:screenOrientation="portrait"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:weightSum="4"
+    android:background="@drawable/heavensky"    
+    tools:context=".Heaven" >
+
+   <Button
+       android:id="@+id/back1"
+       android:layout_width="50dp"
+       android:layout_height="wrap_content"
+       android:layout_weight="0.5"
+       android:background="@android:color/transparent"
+       android:drawableLeft="@drawable/backlogo"
+       android:textSize="20dp" />
+
+    <Button
+        android:id="@+id/button7"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+android:layout_weight="0.5"
+        android:layout_marginTop="32dp" 
+        android:drawableLeft="@drawable/givelogo" 
+        android:textSize="12dp"
+        />
+
+<Button
+    android:id="@+id/button8"
+    android:layout_width="match_parent"
+    android:layout_weight="0.5"
+    android:layout_height="wrap_content"
+        android:drawableLeft="@drawable/charlogo"
+        android:textSize="12dp"
+    />
+
+<Button
+    android:id="@+id/button9"
+    android:layout_width="match_parent"
+    android:layout_weight="0.5"
+    android:layout_height="wrap_content"
+       android:drawableLeft="@drawable/givchar" 
+       android:textSize="12dp"
+ />
+
+<Button
+    android:id="@+id/button10"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+        android:drawableLeft="@drawable/givmoslogo"
+        android:textSize="12dp"
+    />
+
+<Button
+    android:id="@+id/button11"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="0.5"
+    android:drawableLeft="@drawable/helplogo" 
+    android:textSize="12dp"
+    />
+
+<Button
+    android:id="@+id/button12"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+            android:drawableLeft="@drawable/moslogo"
+            android:textSize="12dp"
+    />
+
+</LinearLayout>

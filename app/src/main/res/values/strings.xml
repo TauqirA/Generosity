@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Generosity</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_heaven">Heaven</string>
+    <string name="title_activity_earth">Earth</string>
+    <string name="title_activity_achievements">Achievements</string>
+
+</resources>
